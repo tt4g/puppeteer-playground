@@ -20,7 +20,7 @@
     "format:fix": "npm-run-all -s format:fix:prettier format:fix:eslint",
     "format:fix:prettier": "prettier  --write .",
     "format:fix:eslint": "eslint --fix .",
-    "tsc:build": "cross-env NODE_ENV=production tsc --outDir build/typescript src/index.ts",
+    "tsc:build": "cross-env NODE_ENV=production tsc --outDir build/typescript",
     "tsc:type-check": "tsc --noEmit",
     "tsc:type-check:watch": "tsc --noEmit --watch",
     "dev:run": "ts-node --files src/index.ts",
