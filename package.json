@@ -18,7 +18,7 @@
     "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint .",
     "format:fix": "npm-run-all -s format:fix:prettier format:fix:eslint",
-    "format:fix:prettier": "prettier  --write .",
+    "format:fix:prettier": "prettier --write .",
     "format:fix:eslint": "eslint --fix .",
     "tsc:build": "cross-env NODE_ENV=production tsc --outDir build/typescript",
     "tsc:type-check": "tsc --noEmit",
